@@ -1,0 +1,240 @@
+body{
+  background: #D3D3D3;
+}
+.BgNav{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: #67BE4B;
+  
+}
+
+nav ul{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: relative;  
+}
+nav li{
+  display: inline-block;
+}
+nav li:hover{
+  background: rgb(202, 196, 200);
+}
+nav a{
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sub-menu{
+  position: absolute;
+  background: rgb(227, 230, 227);
+  width: 100%;
+  display: none;
+  left: 0;
+}
+.sub-menu p{
+  padding: 15px;
+}
+nav li:hover .sub-menu{
+  display: block;
+}
+h2,h3{
+  text-align: center;
+}
+.sub-menu li{
+  display: block;
+}
+.button {
+  background-color: rgb(10, 202, 10);
+}
+
+.button:active {
+  background-color: red;
+  outline: none; /* Pour enlever la bordure bleu */
+}
+.sub-menu a{
+	padding: 10px;
+}
+.rouge{
+  background-color: red;
+}
+span{
+  text-align: center;
+  color: red;
+  margin-left: 23%;
+}
+.contener-menu .deconect>a{
+  background: rgb(202, 196, 200);
+  background-color: red;
+  width: 100%;
+}
+
+p{
+  color: white;
+  font-size: 300%;
+  font-weight: bold;
+  text-align: center;
+}
+.table{
+  background-color: white;
+}
+/*auth*/
+#container{
+  width:50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  text-align: center;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/* Bordered form */
+form {
+  width:100%;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+ /* background: #fff;*/
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.class{
+  background-color: red;
+}
+span{
+  color: red;
+  font-size: 200%;
+  font-weight: bolder;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+  background-color: #53af57;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+#content{
+  width: 500px;
+  height:80%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin:-250px 0px 0px -200px;
+ /* background-color:#666266;*/
+ /*//////////////////*/
+  background-repeat: repeat;
+  border-radius: 5px;
+}
+legend{
+
+  width:100%;
+  padding: 30px;
+  border: 0.5% solid #f1f1f1;
+  background: #fff;
+}
+.form{
+  width:50%;
+  margin-left: 23%;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#recherche{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.formulaire{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.formAjoutPro{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.table{
+  width:100%;
+  margin-bottom: 1%;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.modifProd{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.table2{
+  width:100%;
+  margin-bottom: 1%;
+ 
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  
+}
+.supPro{
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 3%;
+  border: 1% solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/*integration page accueil*/
+
